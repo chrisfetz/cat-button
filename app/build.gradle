@@ -2,8 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-    unitTests {
-        includeAndroidResources = true
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
     }
     defaultConfig {
         applicationId "com.chrisfetz.catbutton"
