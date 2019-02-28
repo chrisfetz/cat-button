@@ -11,6 +11,7 @@ import java.net.URL;
 import java.util.Scanner;
 
 public class NetworkUtils {
+
     /*
      * String constants
      */
@@ -18,9 +19,10 @@ public class NetworkUtils {
     private static final String CATS_BASE_URL = "https://api.thecatapi.com/v1/images";
     private static final String SEARCH_PATH = "search";
 
-    /*
+    /**
      * Builds a URL that points to https://api.thecatapi.com/v1/images/search,
      * which contains a JSON object with a link to a cat picture.
+     * @return A A url to the cat api
      */
     public static URL buildSearchURL(){
         Uri builtUri = Uri.parse(CATS_BASE_URL).buildUpon()
