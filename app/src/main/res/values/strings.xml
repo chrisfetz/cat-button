@@ -4,4 +4,6 @@
     <string name="button_description">Push the button to show a random cat!</string>
 
     <string name="new_cat">New Cat</string>
+
+    <string name="content_description">A cute picture of a kitty.</string>
 </resources>

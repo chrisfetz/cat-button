@@ -10,6 +10,8 @@ import org.robolectric.RobolectricTestRunner;
 
 @RunWith(RobolectricTestRunner.class)
 public class MainActivityTest {
+    //TODO: Learn how to test any of the stuff in MainActivity l o l
+
     @Test
     public void exampleTest () {
         assertTrue(2 + 2 == 4);

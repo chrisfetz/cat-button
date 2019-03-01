@@ -32,13 +32,14 @@ public class MainActivity extends AppCompatActivity {
 
         myImageView = findViewById(R.id.iv_cat_picture);
         myViewModel = ViewModelProviders.of(this).get(MyViewModel.class);
-
         RequestManager requestManager = Glide.with(this);
+
         final Observer<String> urlObserver = new Observer<String>() {
             @Override
             public void onChanged(@Nullable String newUrl) {
                 Log.v("LIVEDATA", "The livedata changed: " + newUrl);
-                RequestBuilder requestBuilder = requestManager.load(newUrl);
+                RequestBuilder requestBuilder =
+                        requestManager.load(newUrl).fitCenter();
                 requestBuilder.into(myImageView);
             }
         };
