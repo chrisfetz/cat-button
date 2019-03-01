@@ -10,5 +10,8 @@ import org.robolectric.RobolectricTestRunner;
 
 @RunWith(RobolectricTestRunner.class)
 public class MainActivityTest {
-
+    @Test
+    public void exampleTest () {
+        assertTrue(2 + 2 == 4);
+    }
 }

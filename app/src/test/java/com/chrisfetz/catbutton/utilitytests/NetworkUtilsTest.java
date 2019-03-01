@@ -1,10 +1,9 @@
-package com.chrisfetz.catbutton;
+package com.chrisfetz.catbutton.utilitytests;
 
 import com.chrisfetz.catbutton.utilities.NetworkUtils;
 
 import org.junit.Test;
 
-import static android.service.autofill.Validators.not;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;

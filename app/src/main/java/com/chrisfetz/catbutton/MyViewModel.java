@@ -7,6 +7,9 @@ import android.support.annotation.NonNull;
 
 /**
  *
+ * Code based on the StackOverflow answer here:
+ * https://stackoverflow.com/questions/51601046/should-i-make-asynctask-member-of-livedata-or-repository-class-as-replacement
+ *
  */
 public class MyViewModel extends AndroidViewModel {
     @NonNull
